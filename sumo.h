@@ -1,7 +1,7 @@
 #ifndef sumo_h
 #define sumo_h
 
-class RobotMovil {
+class sumo {
   public:
     sumo ();
     void forward(int l, int r, int t);
