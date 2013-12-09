@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include "Sumo.h"
+#include "sumo.h"
 
-Sumo::Sumo(){
+sumo::sumo(){
   pinMode(7,OUTPUT);
   pinMode(8,OUTPUT);
   pinMode(9,OUTPUT);
