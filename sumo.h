@@ -1,9 +1,9 @@
-#ifndef sumo_h
-#define sumo_h
+#ifndef Sumo_h
+#define Sumo_h
 
-class sumo {
+class Sumo {
   public:
-    sumo ();
+    Sumo ();
     void forward(int l, int r, int t);
     void reverse(int l, int r, int t);
     void rotate(int t);
