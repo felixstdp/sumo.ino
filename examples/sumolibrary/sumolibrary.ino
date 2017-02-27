@@ -1,11 +1,11 @@
 #include <Sumo.h>
-Sumo robot;
+Sumo walle;
 
 void setup() {}
 
 void loop()
 {
-  robot.forward(100,100,1000);
-  robot.reverse(100,100,1000);
-  robot.rotate(250);
+  walle.forward(100,100,1000);
+  walle.reverse(100,100,1000);
+  walle.rotate(250);
 }
